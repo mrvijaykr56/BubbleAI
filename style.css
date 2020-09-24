@@ -1,0 +1,125 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: white;
+
+}
+.brand h2{
+	text-align: center;
+
+}
+.brand h2 span{
+	color:red;
+}
+.brand{
+ 	padding: 10px;
+ 	box-shadow: 1px 0px 10px #888888;
+}
+
+.wrap{
+	max-width: 500px;
+	margin: auto;
+	margin-top: 50px;
+	padding:20px;
+	font-family: sans-serif;
+	background: #fff;
+	border-radius: 10px;
+	border-radius: 1px;
+	outline: none;
+	border:none;
+	border:2px solid gray;
+	margin-bottom: 10px;
+
+}
+
+.wrap h2{
+	font-size: 2em;
+	text-align: center;
+
+}
+.wrap h3{
+	font-size: 1.0em;
+	text-align: center;
+	border: 1px solid white;
+	margin-bottom: 30px;
+}
+
+.social-media button{
+	padding: 10px;
+	width: 49%;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	border-radius: 2px;
+	border:2px solid gray;
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+
+button a{
+	text-decoration: none;
+	color: black;
+
+}
+
+button a:hover{
+	text-decoration: none;
+	color: black;
+}
+.social-media{
+	margin-bottom: 15px;
+}
+
+
+.social-media button a i{
+	font-size: 18px;
+	font-weight: bold;
+	color: blue;
+
+}
+
+form{
+	margin-top: 30px;
+
+
+}
+
+input[type=text],input[type=password],input[type=email],input[type=submit]{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	font-size: 17px;
+	border-radius: 1px;
+	outline: none;
+	border:none;
+	border:2px solid gray;
+}
+
+input[type=submit]{
+	background: #1d7ff0;
+	border:none;
+	color: #fff;
+	font-size: 20px;
+	height: 50px;
+	font-weight: bold;
+	margin-top: 20px;
+	padding: 15px;
+	cursor: pointer;
+	box-shadow: 1px 0px 10px #888888;
+}
+
+input[type=submit]:hover{
+	background: #441df0;
+	box-shadow: 1px 0px 10px #888888;
+
+}
+
+p{
+	text-align: center;
+}
+p span{
+	text-decoration: none;
+	font-weight: bold;
+}
