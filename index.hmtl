@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bobble.AI</title>
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+	<header>
+		<div class="brand">
+			<h2>Bobble<span>AI</span></h2>
+		</div>
+	</header>
+	
+	<div class="wrap">
+		<h3>SIGN UP</h3>
+		<h2> Create your account</h2>
+		<p>Lorem ipsum dolor sit amet consectetur.</p>
+		<div class="social-media">
+			
+			<button><a href="#"><i class="fa fa-google" aria-hidden="true"></i> Sign up with Google</a></button>
+			<button><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i> Sign up with Facebook</a></button>
+		</div>
+		<p>or</p>
+		<div>
+			<form>
+				<input type="text" id="fname" name="fname" placeholder="First Name"><br>
+				<input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+				<input type="email" id="email" name="email" placeholder="Email Address"><br>
+				<input type="password" id="password" name="password" placeholder="Password"><br>
+				<p>By clicking Sign Up, you agree to our <span>Terms of Use</span> and our <span>Privacy Policy</span></p>
+				<input type="submit" value="SIGN UP">
+			</form>
+		</div>
+	</div>
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
