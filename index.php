@@ -77,7 +77,7 @@ if(!isset($_SESSION['access_token']))
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>Bobble.AI</title>
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
 
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
